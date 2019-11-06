@@ -30,7 +30,8 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="container">
+      <h2>Gotta-do List</h2>
       <TodoForm 
         addItem={addItem}
       />

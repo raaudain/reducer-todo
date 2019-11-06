@@ -2,7 +2,7 @@
 
 html{
     font-size: 62.5%;
-    //background-color: #100e17;
+    background-color: #100e17;
     
     .container{
         margin: auto;
@@ -16,7 +16,7 @@ html{
             text-align: center;
         }
 
-        .form{
+        form{
             display: flex;
             justify-content: space-between;
             margin-bottom: 40px;
@@ -59,17 +59,17 @@ html{
                 text-decoration: line-through;
                 width: 100%;
             }
+        }
 
-            .clearBtn{
-                margin-top: 20px;
-                font-size: 4rem;
-                width: 37%;
-                height: 94px;
-                background-color: #8B0000;
-                border-radius: 10px;
-                border: none;
-                color: #ffffff; 
-            }
+        .clearBtn{
+            margin-top: 20px;
+            font-size: 4rem;
+            width: 37%;
+            height: 94px;
+            background-color: #8B0000;
+            border-radius: 10px;
+            border: none;
+            color: #ffffff; 
         }
     }
 }

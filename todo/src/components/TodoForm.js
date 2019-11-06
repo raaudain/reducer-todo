@@ -22,9 +22,10 @@ export const TodoForm = props => {
                     value={input}
                     name="item"
                     onChange={changeHandler}
+                    className="inputField"
                 />
 
-                <button>Add</button>
+                <button className="addBtn">Add</button>
             </form>
         </div>
     )

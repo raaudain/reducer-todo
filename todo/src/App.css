@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 html {
   font-size: 62.5%;
+  background-color: #100e17;
 }
 
 html .container {
@@ -16,7 +17,7 @@ html .container h2 {
   text-align: center;
 }
 
-html .container .form {
+html .container form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,7 +27,7 @@ html .container .form {
   margin-bottom: 40px;
 }
 
-html .container .form .inputField {
+html .container form .inputField {
   width: 100%;
   height: 90px;
   border-radius: 10px;
@@ -34,7 +35,7 @@ html .container .form .inputField {
   padding: 0 20px;
 }
 
-html .container .form .addBtn {
+html .container form .addBtn {
   background-color: #FF8C00;
   width: 20%;
   height: 94px;
@@ -45,7 +46,7 @@ html .container .form .addBtn {
   border-radius: 10px;
 }
 
-.item, .itemCompleted {
+html .container .todolist .item, html .container .todolist .itemCompleted {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,12 +65,12 @@ html .container .form .addBtn {
   vertical-align: middle;
 }
 
-.itemCompleted {
+html .container .todolist .itemCompleted {
   text-decoration: line-through;
   width: 100%;
 }
 
-html .container .todolist .clearBtn {
+html .container .clearBtn {
   margin-top: 20px;
   font-size: 4rem;
   width: 37%;
