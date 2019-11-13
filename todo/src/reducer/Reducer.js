@@ -1,10 +1,6 @@
 
 export const initialState = {
-    todo: [{
-        name: "Learn about reducers",
-        completed: false,
-        id: 3892987589
-    }]
+    todo: []
 }
 
 export const reducer = (state, action) => {

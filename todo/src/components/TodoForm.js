@@ -23,6 +23,7 @@ export const TodoForm = props => {
                     name="item"
                     onChange={changeHandler}
                     className="inputField"
+                    placeholder="Whatcha gotta do?"
                 />
 
                 <button className="addBtn">Add</button>
